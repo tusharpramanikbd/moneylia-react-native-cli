@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login Screen renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "justifyContent": "center",
+        "paddingHorizontal": 40,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../assets/images/login-image.png",
+        }
+      }
+      style={
+        Object {
+          "height": 334,
+          "marginBottom": 24,
+          "width": 335,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#3A3B7B",
+          "fontSize": 32,
+          "fontWeight": "bold",
+          "marginBottom": 8,
+          "textAlign": "center",
+        }
+      }
+    >
+      Save your money
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#6F6D7B",
+          "marginBottom": 60,
+          "textAlign": "center",
+        }
+      }
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est in quis erat a sit.
+    </Text>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#7476ED",
+          "borderRadius": 4,
+          "elevation": 4,
+          "marginBottom": 24,
+          "width": "85%",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 18,
+              "fontWeight": "bold",
+              "paddingVertical": 16,
+              "textAlign": "center",
+            }
+          }
+        >
+          Join for free
+        </Text>
+      </View>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#3A3B7B",
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      Don't have SPID or CIE? Find out more
+    </Text>
+  </View>
+</RCTSafeAreaView>
+`;
+
+exports[`Login Screen should be visible save your money text 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "justifyContent": "center",
+        "paddingHorizontal": 40,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../assets/images/login-image.png",
+        }
+      }
+      style={
+        Object {
+          "height": 334,
+          "marginBottom": 24,
+          "width": 335,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#3A3B7B",
+          "fontSize": 32,
+          "fontWeight": "bold",
+          "marginBottom": 8,
+          "textAlign": "center",
+        }
+      }
+    >
+      Save your money
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#6F6D7B",
+          "marginBottom": 60,
+          "textAlign": "center",
+        }
+      }
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est in quis erat a sit.
+    </Text>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#7476ED",
+          "borderRadius": 4,
+          "elevation": 4,
+          "marginBottom": 24,
+          "width": "85%",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 18,
+              "fontWeight": "bold",
+              "paddingVertical": 16,
+              "textAlign": "center",
+            }
+          }
+        >
+          Join for free
+        </Text>
+      </View>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#3A3B7B",
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      Don't have SPID or CIE? Find out more
+    </Text>
+  </View>
+</RCTSafeAreaView>
+`;

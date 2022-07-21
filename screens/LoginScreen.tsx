@@ -13,6 +13,11 @@ import RootStackParamList from '../@types/RootStackPramList';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Login'>;
 
+// For Unit Testing
+// type LoginScreenProp = {
+//   navigation: any;
+// };
+
 const LoginScreen = ({navigation}: Props) => {
   const loginOnPressHandler = () => {
     navigation.navigate('BottomTabs');
